@@ -6,3 +6,13 @@ export_presets.cfg
 
 # Mono-specific ignores
 .mono/
+
+# CMake ignores
+.cmake_build
+bin/*.so
+bin/*.dll
+bin/*.exp
+bin/*.ilk
+bin/*.pdb
+bin/*.lib
+CMakeLists.txt.user
